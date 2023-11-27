@@ -1,0 +1,276 @@
+body {
+    font: 15px/1.5 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #cad2c5;
+
+
+}
+
+
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.button_1 {
+    height: 50px;
+    background: #e8491d;
+    border: 0;
+    padding-left: 70px;
+    padding-right: 128px;
+    color: #ffffff;
+
+}
+
+.dark {
+    padding: 15px;
+    background: #35424a;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*the header*/
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    border-bottom: #e8491d 8px solid;
+    min-height: 70px;
+}
+
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight,
+header .current a {
+    color: #e8491d;
+    font-weight: bold;
+
+}
+
+header a:hover {
+    font-weight: bold;
+    color: #e8491d;
+}
+
+
+/*The contaunt */
+
+
+
+#newsletter {
+    padding: 15px;
+    color: #ffffff;
+    background: #35424a;
+}
+
+#newsletter h1 {
+    float: left;
+}
+
+#newsletter form {
+    float: right;
+    margin-top: 15px;
+}
+
+#newsletter input[type="email"] {
+    padding: 25px;
+    height: 40px;
+    width: 265px;
+}
+
+
+/*the box*/
+
+
+
+#boxes {
+    margin-top: 20px;
+}
+
+#boxes .box {
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+
+}
+
+#boxes .box img {
+    width: 160px;
+}
+
+/*about */
+aside#sidebar {
+    float: right;
+    width: 40%;
+    margin-top: 10px;
+}
+
+aside#sidebar .quote input,
+aside#sidebar .quote textarea {
+    width: 90%;
+    padding: 5px;
+}
+
+article#main-col {
+    float: left;
+    width: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+/*login and sign-up*/
+
+.signup-box {
+    width: 350px;
+    height: 650px;
+    margin: auto;
+    background-color: #ede0d4;
+    border-radius: 3px;
+}
+
+.login-box {
+    width: 400px;
+    height: 360px;
+    margin: auto;
+    background-color: #ede0d4;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 5px;
+}
+
+h4 {
+    text-align: center;
+}
+
+form {
+    width: 300px;
+    margin-left: 20px;
+}
+
+form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+
+input[type="submit"] {
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #49c1a2;
+    color: rgb(38, 13, 49);
+    font-size: 18px;
+}
+
+p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+.para-2 {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: -20px;
+}
+
+.para-2 a {
+    color: #49c1a2;
+}
+
+
+
+
+
+/*contact us */
+ul#contact li {
+    list-style: none;
+    padding: 20px;
+    border: #cccccc solid 1px;
+    margin-bottom: 10px;
+    background: #e6e6e6e6;
+
+}
+
+
+/* Footer Area */
+
+footer.footer-area {
+    padding: 5rem 0;
+
+    background-color: #cad2c5;
+
+}
+
+footer.footer-area .social h5 {
+    font: normal 500 23px/ 30px var(--roboto);
+}
+
+footer.footer-area .social a>i {
+    font-size: 22px;
+    padding: 2rem;
+    color: var(--border-color);
+}
+
+footer.footer-area .social a:hover>i {
+    color: var(--primary-color);
+}
+
+
+/* End Footer */
